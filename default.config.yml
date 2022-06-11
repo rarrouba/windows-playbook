@@ -30,30 +30,22 @@ power_plan: "high performance"
 
 choco_installed_packages:
   - 7zip
-  - Firefox
+  - Brave
   - adobereader
   - auto-dark-mode
-  - awscli
   - choco-cleaner
   - choco-upgrade-all-at-startup
   - git
-  - golang
-  - jre8
-  - kubernetes-cli
   - microsoft-windows-terminal
   - powertoys
-  - python3
-  - sharex
-  - telegram
-  - terraform
-  - vlc
+  - mpv
   - vscode
-  - zoom
 
 install_fonts: true
 installed_nerdfonts:
   - FiraCode
   - FantasqueSansMono
+  - CascadiaCode
 
 # List of features: "Get-WindowsOptionalFeature -Online"
 install_windows_features: false
@@ -72,7 +64,7 @@ windows_features:
 # wsl-ubuntu-1804
 # wsl-ubuntu-2004
 install_wsl2: true
-wsl2_distribution: wsl-ubuntu-2004
+wsl2_distribution: wsl-ubuntu
 
 remove_bloatware: true
 bloatware:
@@ -114,3 +106,7 @@ bloatware:
   - Microsoft.ZuneMusic
   - Microsoft.ZuneVideo
   - MicrosoftTeams
+  - Dropbox
+  - ExpressVPN
+  - McAfee
+  - McAfee.com
