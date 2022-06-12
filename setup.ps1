@@ -8,6 +8,8 @@ else {
 }
 
 # Ensure OpenSSH Server installed
+# https://www.concurrency.com/blog/may-2019/key-based-authentication-for-openssh-on-windows
+# $sshpublic | Out-File -Encoding utf8 C:\ProgramData\ssh\administrators_authorized_keys
 if ([bool](Get-Service -Name sshd -ErrorAction SilentlyContinue)) {
     Write-Verbose "OpenSSH is already installed, skip installation." -Verbose
 }
