@@ -37,7 +37,7 @@ choco_installed_packages:
   - choco-upgrade-all-at-startup
   - git
   #- microsoft-windows-terminal
-  - powertoys
+  #- powertoys
   - mpv
   - vscode
 
